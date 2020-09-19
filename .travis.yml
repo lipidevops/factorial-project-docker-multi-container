@@ -34,7 +34,7 @@ deploy:
     app: "factorial-project" # Copy it from Elastic Beanstalk dashboard
     env: "FactorialProject-env" # Copy it from Elastic Beanstalk dashboard
     access_key_id: $AWS_ACCESS_KEY
-    secret_access_key: $AWS_SECRET_KE
+    secret_access_key: $AWS_SECRET_KEY
     bucket_name: "elasticbeanstalk-us-west-1-391998522123" # Elastic Beanstalk will take code from S3 bucket and deploy it in container. Take it from AWS S3
     bucket_path: "docker" # Folder where Travis CI will upload the code in zip file in this folder. Take it from AWS S3
     on: 
